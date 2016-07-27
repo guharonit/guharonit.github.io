@@ -1,0 +1,16 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ronit Guha</title>
+  <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+<h1>Hello, my name is Ronit and</h1>
+<h2>I like playing basketball</h2>
+<h3>NBA LINK BELOW</h3>
+<img class ="imgl" src = "curry.JPG"> 
+<h4><a href="http://india.nba.com/?gr=www">NBA link here</a></h4>
+</body>
+</html> 
+
