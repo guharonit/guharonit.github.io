@@ -6,10 +6,11 @@ body{
  	  background-size:100px;
  }
 
-h1{ color:white;
+h1{ color:black;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
+    background-color: white;
 }
 h2{
 	color:yellow;
