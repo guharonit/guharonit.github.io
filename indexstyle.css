@@ -36,6 +36,9 @@ p{
 	background-size:50% 100%;
 
 } 
+audio{
+     visibility: hidden;
+}
 .imgl{
  	 display:block;
  	 margin:auto;
