@@ -1,100 +1,6 @@
-   <!doctype html>
-<html lang="">
-</head>
-  <meta charset="utf-8">
-  <title>Ronit Guha</title>
-  <link rel="stylesheet" href="indexstyle.css">
-</head>
-<body>
-<h1>Hello, my name is Ronit Guha</h1>
-<h2>and I like playing basketball</h2>
-<h3>Click on Stephen Curry A True Warrior below if you want to go to the nba website</h3>
-<h4>Click on federal reserve bank of San Francisco logo to learn about the bank down</h4>                                         
-<a href="http://www.sploder.com/free-arcade-game-maker.php">
-<h6>Click the game creator</h6>
-</a>
-<h5>My mom works at the Federal Reserve Bank of San Francisco</h5>
-<a href="http://www.frbsf.org/"><img class ="img1" src = "fdos.png"><a href="http://india.nba.com/?gr=www">                       <img class ="img2" src= "StephenCurry.JPG"/>
-</a>
-<button type="button" onclick="alert('WHY DID YOU CLICK ME')">Don't Click Me!</button>
-<audio controls>
-  <source src="bomb.ogg" type="audio/ogg">
-  <source src="bomb.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls>
-  <source src="beep.ogg" type="audio/ogg">
-  <source src="beep.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<ul class="tab">
-
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'Me')">Me</a></li>
-
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'My bigg sis')">My bigg sis</a></li>
-
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'My parents')">My parents</a></li>
-
-</ul>
-
-
-<div id="Me" class="tabcontent">
-
-  <h3>Me!</h3>
-
-  <p>Born August 24,1990</p>
-
-</div>
-
-
-<div id="My bigg sis" class="tabcontent">
-
-  <h3>My bigg sis</h3>
-
-  <p>Born 1989</p>
-
-</div>
-
-
-<div id="My parents" class="tabcontent">
-
-  <h3>My parents</h3>
-
-  <p>Born 1950</p>
-
-</div>
-
-
-<script>
-
-function openCity(evt, cityName) {
-
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
-
-    for (i = 0; i < tabcontent.length; i++) {
-
-        tabcontent[i].style.display = "none";
-
-    }
-
-    tablinks = document.getElementsByClassName("tablinks");
-
-    for (i = 0; i < tablinks.length; i++) {
-
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-
-    }
-
-    document.getElementById(cityName).style.display = "block";
-
-    evt.currentTarget.className += " active";
-
-}
-
-</script>
-
+<!DOCTYPE html>
+<html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -120,8 +26,8 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width =480;
-        this.canvas.height = 270;
+        this.canvas.width = 6000;
+        this.canvas.height = 3000;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
@@ -225,7 +131,7 @@ function accelerate(n) {
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<h1>Use the ACCELERATE button to stay in the air</h1>
-<h1>How long can you stay alive?</h1>
+<p>Use the ACCELERATE button to stay in the air</p>
+<p>How long can you stay alive?</p>
 </body>
 </html>
