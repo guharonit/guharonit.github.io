@@ -44,8 +44,8 @@ audio{
      visibility: hidden;
 }
 .imgl{
- 	 display:block;
- 	 margin:auto;
+ 	 display:inline;
+ 	 margin:right:;
  	 width:350px;
  	 height:480px;
      border-radius:50%;
