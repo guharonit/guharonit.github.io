@@ -1,9 +1,8 @@
+
 body{
-	background color: white;
-}
-body{
-      background-image:url("./fast cars.JPG");
+      background-image:url("fast cars.JPG");
  	  background-size:700px;
+	background color: white;
  }
 
 h1{ color:black;
