@@ -1,39 +1,36 @@
-
 body{
-      background-image:url("fast cars.jpg");
- 	  background-size:700px;
+	background color:blue;
+}
+body{
+      background-image:url("curry up now.JPG");
+     background-size: cover;
  }
 
-h1{ color:black;
+h1{ color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-    background-color: white;
+    background-color:;
 }
 h2{
-	color:black;
+	color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-    background-color: white;
+    background-color: ;
 }
 
-h3{color:black;
+h3{color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-    background-color: white;
-}
-
-button{
-	   width: 200px;
-	   height: 400px;
+    background-color: ;
 }
 p{
 	font-family: courier;
 	font-size: 70px;
-	background-color: white;
-	color: black;
+	background-color: ;
+	color:white;
 	text-align: center;
 	background-size:50% 100%;
 
@@ -42,8 +39,8 @@ audio{
      visibility: hidden;
 }
 .imgl{
- 	 display:inline;
- 	 margin:right:;
+ 	 display:block;
+ 	 margin:auto;
  	 width:350px;
  	 height:480px;
      border-radius:50%;
@@ -57,26 +54,26 @@ audio{
       border-radius:60%;
 }
 h4{
-	color: black;
+	color:white;
 	text-align: center;
     font-family:"Courier New";
     font-size: 70px;
-    background-color: white; 
+    background-color:; 
  }
 h5{
-	color:#66ff33;
+	color:white;
     text-align: center;
     font-family: "Courier New";
     font-size: 70px;
-    background-color: white;
+    background-color:;
 }
-h6{color: black;
+h6{color:white;
     text-align: center;
     font-family:"Courier New";
     font-size: 70px;
     display:block;
     margin:auto;
-    background-color: white;
+    background-color:;
 }
 .img3{
      display:block;
@@ -86,3 +83,17 @@ h6{color: black;
      border-radius:80%;
 
 } 
+button{
+    width: 400px;
+    font-size:100px;
+    height: 500px;
+    background-color:blue;
+}
+h7{color:black;
+    text-align: center;
+    font-family:"Courier New";
+    font-size: 70px;
+    display:block;
+    margin:auto;
+    background-color:;
+}
