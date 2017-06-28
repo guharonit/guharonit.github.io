@@ -1,28 +1,28 @@
 
 body{
-      background-image:url("curry_up_now.jpg");
-     background-size: cover;
+      background-image:url("curry up now.jpg");
+     background-size: cover;`
 }
 
 h1{ color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-   
+    background-color:;
 }
 h2{
 	color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-   
+    background-color: ;
 }
 
 h3{color:white;
 	text-align:center;
 	font-family:"Courier New" ;
 	font-size: 70px;
-   
+    background-color: ;
 }
 p{
 	font-family: courier;
@@ -56,14 +56,14 @@ h4{
 	text-align: center;
     font-family:"Courier New";
     font-size: 70px;
-    
+    background-color:; 
  }
 h5{
 	color:white;
     text-align: center;
     font-family: "Courier New";
     font-size: 70px;
-   
+    background-color:;
 }
 h6{color:white;
     text-align: center;
@@ -71,6 +71,7 @@ h6{color:white;
     font-size: 70px;
     display:block;
     margin:auto;
+    background-color:;
 }
 .img3{
      display:block;
@@ -92,5 +93,5 @@ h7{color:black;
     font-size: 70px;
     display:block;
     margin:auto;
-   
+    background-color:;
 }
