@@ -1,10 +1,9 @@
-body{
-	background color:blue;
-}
+
 body{
       background-image:url("curry up now.JPG");
      background-size: cover;
- }
+    background color:blue;
+}
 
 h1{ color:white;
 	text-align:center;
