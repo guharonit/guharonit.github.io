@@ -1,2 +1,2 @@
-# guharonit.github.io
+# guharonit.github
 personal website
